@@ -1,0 +1,43 @@
+System:    Host: homeserver Kernel: 5.3.0-29-generic x86_64 bits: 64 Desktop: Gnome 3.34.1 Distro: Ubuntu 19.10 (Eoan Ermine) 
+Machine:   Type: Desktop Mobo: ASRock model: B450 Gaming-ITX/ac serial: <root required> UEFI: American Megatrends v: P3.70 
+           date: 11/18/2019 
+CPU:       Topology: 6-Core model: AMD Ryzen 5 3600X bits: 64 type: MT MCP L2 cache: 3072 KiB 
+           Speed: 2201 MHz min/max: 2200/3800 MHz Core speeds (MHz): 1: 2196 2: 2196 3: 2131 4: 2145 5: 2206 6: 1997 7: 1970 
+           8: 2323 9: 2195 10: 2192 11: 2196 12: 2152 
+Graphics:  Device-1: Advanced Micro Devices [AMD/ATI] Oland PRO [Radeon R7 240/340] driver: radeon v: kernel 
+           Display: x11 server: X.Org 1.20.5 driver: radeon resolution: 1920x1080~60Hz 
+           OpenGL: renderer: AMD OLAND (DRM 2.50.0 5.3.0-29-generic LLVM 9.0.0) v: 4.5 Mesa 19.2.8 
+Audio:     Device-1: AMD Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] driver: snd_hda_intel 
+           Device-2: Advanced Micro Devices [AMD] Starship/Matisse HD Audio driver: snd_hda_intel 
+           Sound Server: ALSA v: k5.3.0-29-generic 
+Network:   Device-1: Intel Dual Band Wireless-AC 3168NGW [Stone Peak] driver: iwlwifi 
+           IF: wlp8s0 state: down mac: 0c:dd:24:e0:3f:85 
+           Device-2: Intel I211 Gigabit Network driver: igb 
+           IF: enp9s0 state: up speed: 1000 Mbps duplex: full mac: 70:85:c2:ff:19:39 
+           IF-ID-1: docker0 state: up speed: N/A duplex: N/A mac: 02:42:32:48:cd:73 
+           IF-ID-2: hassio state: up speed: N/A duplex: N/A mac: 02:42:a9:6d:b5:fa 
+           IF-ID-3: veth0265a7b state: up speed: 10000 Mbps duplex: full mac: ca:b9:3d:90:9a:d1 
+           IF-ID-4: veth0a9cd97 state: up speed: 10000 Mbps duplex: full mac: 6a:1c:26:08:c4:15 
+           IF-ID-5: veth0eda586 state: up speed: 10000 Mbps duplex: full mac: ee:9d:10:32:c6:02 
+           IF-ID-6: veth212cdc4 state: up speed: 10000 Mbps duplex: full mac: 66:d4:c9:a0:08:5b 
+           IF-ID-7: veth41f72d4 state: up speed: 10000 Mbps duplex: full mac: 62:36:41:ae:10:33 
+           IF-ID-8: veth96574a8 state: up speed: 10000 Mbps duplex: full mac: 46:34:fe:51:08:c0 
+           IF-ID-9: vethbfa564f state: up speed: 10000 Mbps duplex: full mac: b6:f5:10:ee:da:44 
+           IF-ID-10: vethec50e6a state: up speed: 10000 Mbps duplex: full mac: ba:14:ac:62:ed:e9 
+           IF-ID-11: vetheec4b91 state: up speed: 10000 Mbps duplex: full mac: 1e:4f:f9:6f:c6:2f 
+           IF-ID-12: vethfdb7edd state: up speed: 10000 Mbps duplex: full mac: d2:0a:44:ab:48:21 
+           IF-ID-13: virbr0 state: down mac: 52:54:00:11:a9:1e 
+           IF-ID-14: virbr0-nic state: down mac: 52:54:00:11:a9:1e 
+Drives:    Local Storage: total: 11.38 TiB used: 1.73 TiB (15.2%) 
+           ID-1: /dev/nvme0n1 vendor: Samsung model: SSD 970 EVO 500GB size: 465.76 GiB 
+           ID-2: /dev/sda vendor: MediaMax model: WL3000GSA6472 size: 2.73 TiB 
+           ID-3: /dev/sdb vendor: Hitachi model: HUA723030ALA640 size: 2.73 TiB 
+           ID-4: /dev/sdc type: USB vendor: Kingston model: DataTraveler 3.0 size: 7.22 GiB 
+           ID-5: /dev/sdd vendor: Hitachi model: HUA723030ALA640 size: 2.73 TiB 
+           ID-6: /dev/sde vendor: Hitachi model: HUA723030ALA640 size: 2.73 TiB 
+RAID:      Device-1: md0 type: mdraid status: active raid: raid-10 report: 4/4 UUUU Components: 
+           online: sde~c3 sdb~c1 sdd~c2 sda~c0 
+Partition: ID-1: / size: 456.96 GiB used: 43.82 GiB (9.6%) fs: ext4 dev: /dev/nvme0n1p2 
+Sensors:   System Temperatures: cpu: 56.0 C mobo: N/A gpu: radeon temp: 39 C 
+           Fan Speeds (RPM): fan-1: 669 fan-2: 2272 fan-3: 0 fan-4: 0 fan-5: 0 
+Info:      Processes: 479 Uptime: 16m Memory: 31.10 GiB used: 2.88 GiB (9.3%) Shell: bash inxi: 3.0.36 
